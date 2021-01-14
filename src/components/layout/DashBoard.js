@@ -5,15 +5,18 @@ import Clients from '../clients/Clients';
 
 function DashBoard(props) {
     return (
-        <div className='row'>
-            <div className='col-md-10'>
+        <div className='container'>
+            <div className='row'>
+            <div className='col-sm-10 col-xs-12'>
                 <Clients />
             </div>
-            <div className='col-md-2'>
+            <div className='col-sm-2 col-xs-12'>
                 <SideBar />
             </div>
 
         </div>
+        </div>
+        
     )
 }
 
