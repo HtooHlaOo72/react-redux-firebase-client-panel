@@ -52,7 +52,7 @@ class Clients extends Component{
                                 <th ></th>
                             </tr>
                         </thead>
-                        <tbody style={{fontSize:'0.8rem'}}>
+                        <tbody style={{fontSize:'0.7rem'}}>
                             {
                                 clients.map((client, i) => (
                                     <tr key={i}>
